@@ -5,8 +5,8 @@ export default function FriendsList({ friends, onSelection, selectedFriend }) {
     <ul>
       {friends.map((friend) => (
         <Friend
-          friend={friend}
           key={friend.id}
+          friend={friend}
           selectedFriend={selectedFriend}
           onSelection={onSelection}
         />
