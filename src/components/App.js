@@ -67,7 +67,7 @@ export default function App() {
 
         {showAddFriend && <FormAddFriend onAddFriend={handleAddFriend} />}
 
-        <Button onClick={handleShowAddFriend}>
+        <Button label="toggle close add friend" onClick={handleShowAddFriend}>
           {showAddFriend ? "Close" : "Add friend"}
         </Button>
       </div>

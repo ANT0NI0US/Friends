@@ -58,7 +58,7 @@ export default function FormSplitBill({ selectedFriend, onSplitBill }) {
         </select>
       </div>
 
-      <Button>Split bill</Button>
+      <Button label="split bill">Split bill</Button>
     </form>
   );
 }

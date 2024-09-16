@@ -43,7 +43,7 @@ export default function FormAddFriend({ onAddFriend }) {
         />
       </div>
 
-      <Button>Add</Button>
+      <Button label="add">Add</Button>
     </form>
   );
 }
